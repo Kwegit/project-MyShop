@@ -1,16 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <link rel="icon" href="/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
   </head>
   <body>
-    <div id="app">
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+          name="description"
+          content="Explore our wide selection of stylish furniture to create an interior that reflects your unique style. Discover quality furniture, modern and classic designs, and find the perfect piece for every space in your home. Shop now to transform your home into a haven of comfort and beauty."
+        />
+        <link href="https://fonts.cdnfonts.com/css/avenir" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <title>Vue Site</title>
+      </head>
+      <body>
+        <nav class="hamburger">
+          <div>
+            <img class="logo" src="img/logo.png" alt="logo" />
+            <ul class="menu">
+              <li class="nav_right"><a href="#">Home</a></li>
+              <li class="nav_right"><a href="#">Shop</a></li>
+              <li class="nav_right"><a href="#">Magazine</a></li>
+            </ul>
+            <div class="white">
+              <img
+                class="whitecart"
+                src="img/whitecart.svg"
+                alt="cadie blanc"
+              />
+              <img
+                class="whitecross"
+                src="img/whitecross.svg"
+                alt="croix blanche"
+              />
+            </div>
+          </div>
+        </nav>
+        <nav class="navbar">
+          <div class="div_header">
+            <img class="logo-without-anim" src="img/logo.png" alt="logo" />
+            <ul class="menu">
+              <li id="without" class="nav_right"><a href="#">HOME</a></li>
+              <li id="without" class="nav_right"><a href="#">SHOP</a></li>
+              <li id="without" class="nav_right"><a href="#">MAGAZINE</a></li>
+            </ul>
+          </div>
+          <div class="nav_left">
+            <img class="cart" src="img/ion_cart-outline.png" alt="panier" />
+            <img class="barres" src="img/barres.svg" alt="barres" />
+            <p id="without" class="login"><a href="#">LOGIN</a></p>
+          </div>
+        </nav>
+        <nav class="navsearch">
+          <img class="search" src="img/iconSearch.svg" alt="loupe" />
+          <div class="searchbar">
+            <div class="input-field">
+              <input id="name" type="text" placeholder="Search..." required />
+            </div>
+            <select name="match" id="match">
+              <option class="select" value="">Best match</option>
+              <option class="select" value="intérieur">Indoor</option>
+              <option class="select" value="extérieur">Outdoor</option>
+            </select>
+          </div>
+        </nav>
 
-      
-    </div>
+        <div id="app"></div>
+
+        <footer>
+          <ul class="list_pages">
+            <li><a class="active-page" href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li id="without"><a href="#">5</a></li>
+            <li id="without"><a href="#">6</a></li>
+            <li id="without"><a href="#">7</a></li>
+            <li id="without"><a href="#">8</a></li>
+            <li id="without"><a href="#">9</a></li>
+            <li id="without"><a href="#">10</a></li>
+            <li><a href="#">></a></li>
+          </ul>
+        </footer>
+        <script type="module" src="/src/main.js"></script>
+      </body>
+    </html>
+
+    <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

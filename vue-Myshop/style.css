@@ -1,0 +1,166 @@
+* {
+  list-style: none;
+}
+
+body {
+  margin: auto;
+  max-width: 84rem;
+}
+
+body #app {
+  margin: auto;
+  max-width: 84rem;
+  color: #1b1b1b;
+}
+.hamburger {
+  display: none;
+  overflow-x: hidden;
+  width: 0%;
+  left: 0;
+  top: 0;
+  color: white;
+  position: fixed;
+  height: 100%;
+  background-color: #1b1b1b;
+  z-index: 100;
+}
+
+.hamburger.is-active {
+  width: 100%;
+}
+
+.div_header {
+  display: flex;
+}
+
+.nav {
+  display: flex;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.nav_left {
+  font-family: "Avenir", sans-serif;
+  display: flex;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.nav_right {
+  font-family: "Avenir", sans-serif;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.cart {
+  width: 25px;
+  height: 25px;
+  margin-top: 1vw;
+}
+
+.barres {
+  display: none;
+}
+
+.login {
+  font-family: "Avenir", sans-serif;
+  padding-left: 20px;
+}
+
+a {
+  color: #1b1b1b;
+  text-decoration: none;
+}
+
+form {
+  display: flex;
+  width: 400px;
+}
+
+.input-field {
+  width: 300px;
+  height: 44px;
+  line-height: 44px;
+  width: 80%;
+}
+
+input {
+  border: 0;
+  outline: 0;
+  box-shadow: none;
+  border-bottom: 2px solid #1b1b1b;
+  width: 90%;
+  font-size: 20px;
+}
+
+.searchbar {
+  display: flex;
+  align-items: center;
+  margin-left: 4.5%;
+  width: 100%;
+}
+
+.search {
+  width: 45px;
+  height: 45px;
+  padding: 15px;
+}
+
+.navsearch {
+  display: flex;
+}
+
+#match {
+  border: 0px;
+  color: #1b1b1b;
+  width: 200px;
+  height: 30px;
+  font-size: 20px;
+  border-bottom: 2px solid #e8e8e8;
+  outline: 0;
+}
+
+.select {
+  font-family: "Avenir", sans-serif;
+}
+
+footer {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+footer .list_pages {
+  font-family: "Avenir", sans-serif;
+  font-size: 13px;
+  display: flex;
+  gap: 1.5%;
+  padding: 0;
+}
+
+footer a {
+  display: flex;
+  place-content: center;
+  align-items: center;
+  padding: 0;
+  height: 42px;
+  width: 42px;
+  text-decoration: none;
+  color: #1b1b1b;
+}
+
+footer a:hover {
+  background-color: #1b1b1b;
+  color: white;
+}
+
+footer .active-page {
+  background-color: #1b1b1b;
+  color: white;
+}
