@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #131313;
+        stroke-linecap: square;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: rgba(255, 255, 255, 0);
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="Group">
+      <rect id="Rectangle-Copy-4" class="cls-2" width="24" height="24"/>
+      <g id="Search">
+        <line id="Path" class="cls-1" x1="22" y1="22" x2="16" y2="16"/>
+        <circle id="Oval" class="cls-1" cx="10" cy="10" r="8"/>
+      </g>
+    </g>
+  </g>
+</svg>
