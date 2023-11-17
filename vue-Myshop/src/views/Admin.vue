@@ -1,7 +1,6 @@
 <template>
     <div>
       <h1>Produits</h1>
-      <button>add</button>
       <table>
         <thead>
           <tr>
