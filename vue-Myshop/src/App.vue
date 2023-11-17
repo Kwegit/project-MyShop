@@ -1,12 +1,17 @@
 <script setup>
 import { RouterView } from 'vue-router'
+import CategoriesList from './components/CategoriesList.vue'
 </script>
 
 <template>
-  
-  <RouterView />
+  <div>
+    <RouterView />
+    <CategoriesList />
+  </div>
 </template>
 
-<style >
-
+<style>
+  /* Vos styles CSS ici */
 </style>
+
+
