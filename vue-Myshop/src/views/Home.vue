@@ -2,23 +2,20 @@
     <div>
         <h1>Home</h1>
         <p>Home page content goes here.</p>
-        <h1></h1>
         <h2>{{ msg }}</h2>
     </div>
+  </article>
 </template>
 
 <script>
 export default {
-    name: 'Home',
-    data() {
-        return {
-            msg: 'Welcome to Your Vue.js App'
-        }
-    }
-}
-
+  name: "Home",
+  data() {
+    return {
+      msg: "Welcome to Your Vue.js App",
+    };
+  },
+};
 </script>
 
-<style>
-
-</style>
+<style></style>
