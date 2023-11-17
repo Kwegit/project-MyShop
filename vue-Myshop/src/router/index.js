@@ -1,7 +1,9 @@
-import { createRouter, createWebHistory } from 'vue-router';
-import Home from '../views/Home.vue';
-import Product from '../views/Product.vue';
-import Admin from '/Users/nh/Documents/GitHub/project-MyShop/vue-Myshop/src/views/Admin.vue';
+import { createRouter, createWebHistory } from 'vue-router'
+
+import Home from '../views/Home.vue'
+import Product from '../components/Carte.vue';
+import Admin from '../components/Admin.vue';
+import login from '../views/login.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -17,9 +19,14 @@ const router = createRouter({
       component: Product,
     },
     {
-      path: '/admin',
-      name: 'admin',
+      path: "/admin",
+      name: "admin",
       component: Admin,
+    },
+    {
+      path: "/login",
+      name: "login",
+      component: login,
     },
   ],
 });
