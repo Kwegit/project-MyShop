@@ -11,8 +11,6 @@ export const useproductstore = defineStore("product", {
 });
 
 
-
-
 export const useProducts = defineStore("product", {
   state: () => {
     return {

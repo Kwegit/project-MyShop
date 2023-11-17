@@ -1,5 +1,8 @@
 <template>
-  <div class="product-grid">
+  <div
+          class="grid-container"
+          v-if="getProducts.data && getProducts.data['hydra:member']"
+        >
     <p>teststett</p>
     <button v-on:click="console">test</button>
     <Carte
