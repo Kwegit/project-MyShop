@@ -2,12 +2,13 @@ import { ref, computed } from 'vue'
 import { defineStore } from 'pinia'
 import axios from 'axios';
  
-export const useproductstore = defineStore('product', {
- 
-  state : () => {
-    return{
-      product : []
-    }
+export const useproductstore = defineStore("product", {
+  state: () => {
+    return {
+      product: [],
+    };
+  },
+});
 import { ref, computed } from "vue";
 import { defineStore } from "pinia";
 import axios from "axios";
