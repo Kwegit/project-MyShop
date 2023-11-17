@@ -1,29 +1,28 @@
-import { createRouter, createWebHistory } from 'vue-router'
-
-import Home from '../views/Home.vue'
+import { createRouter, createWebHistory } from 'vue-router';
+import Home from '../views/Home.vue';
 import Product from '../views/Product.vue';
-import Admin from '../components/Admin.vue'
+import Admin from '/Users/nh/Documents/GitHub/project-MyShop/vue-Myshop/src/views/Admin.vue';
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: "/",
-      name: "home",
+      path: '/',
+      name: 'home',
       component: Home,
     },
     {
-      path: "/product",
-      name: "product",
+      path: '/product',
+      name: 'product',
       component: Product,
     },
-
     {
       path: '/admin',
       name: 'admin',
-      component: Admin
+      component: Admin,
     },
-    
   ],
 });
 
-export default router
+export default router;
+
