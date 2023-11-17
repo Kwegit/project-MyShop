@@ -97,7 +97,7 @@ button:hover {
   background-color: #0069d9;
 }
 </style> -->
-[14:27] Alexandre Sammaciccia
+
 <template>
     <div class="mx-auto flex w-full max-w-sm flex-col gap-6 mt-48">
         <div class="flex flex-col items-center">

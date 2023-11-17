@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 import Home from '../views/Home.vue'
 import Product from '../components/Carte.vue';
-import Admin from '../components/Admin.vue';
+import Admin from '../views/Admin.vue'
 import login from '../views/login.vue';
 
 const router = createRouter({

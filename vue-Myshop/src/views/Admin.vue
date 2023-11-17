@@ -27,7 +27,7 @@
   
   <script>
   import { mapActions, mapState } from "pinia";
-  import { useproductstore } from "../stores/counter";
+  import { useproductstore } from "../stores/adminn";
   
   export default {
     data() {
