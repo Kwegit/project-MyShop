@@ -47,3 +47,8 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### Load table admin
+
+```sh
+delete  "['hydra:member']" in "Admin.vue" and put it back without reloading the page (line 16)
